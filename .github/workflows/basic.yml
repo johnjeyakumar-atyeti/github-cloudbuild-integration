@@ -2,6 +2,9 @@
 
 name: CI
 
+env:
+  JF_URL: ${{env.JF_URL}}
+
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
