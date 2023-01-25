@@ -34,4 +34,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          echo ${{ JF_URL }}
+          echo ${{ env.JF_URL }}
