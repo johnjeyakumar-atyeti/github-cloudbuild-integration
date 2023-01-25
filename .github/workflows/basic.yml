@@ -3,8 +3,8 @@
 name: CI
 
 env:
-  #JF_URL: ${{ env.JF_URL }}
-  JF_URL: "helllo jf url"
+  JF_URL: ${{ vars.JF_URL }}
+  #JF_URL: "helllo jf url"
 
 # Controls when the workflow will run
 on:
